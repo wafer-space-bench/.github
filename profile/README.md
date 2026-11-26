@@ -49,9 +49,9 @@ benchmark work lands as it is done.
 
 Repositories are named `<owner>--<repo>` after their upstream. Each carries
 topics for its source and runs, so GitHub can list
-[all the wafer.space designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Awafer-space&type=repositories),
-[all the Google designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Agoogle&type=repositories) or
-[all the Tiny Tapeout designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Atinytapeout&type=repositories).
+[all the wafer.space designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Awafer-space+fork%3Atrue&type=repositories),
+[all the Google designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Agoogle+fork%3Atrue&type=repositories) or
+[all the Tiny Tapeout designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Atinytapeout+fork%3Atrue&type=repositories).
 
 ### These are copies, not the projects
 
