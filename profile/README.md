@@ -17,9 +17,9 @@ DRC/LVS/simulation results is to re-run real designs against it, so the benchmar
 
 | Source | Runs |
 |---|---|
-| wafer.space | `ws-run1`, `ws-run2` |
+| [wafer.space](https://wafer.space) | [`ws-run1`](https://wafer.space/ws-run1/), [`ws-run2`](https://wafer.space/ws-run2/) |
 | Google / Efabless Open MPW | `gf180mcu-mpw0`, `gf180mcu-mpw18h1` |
-| [Tiny Tapeout](https://tinytapeout.com) | `ttgf0p2`, `ttgf0p3`, `ttgf26a`, `ttgf26b`, `ttgf26c`, `ttgf26d` |
+| [Tiny Tapeout](https://tinytapeout.com) | [`ttgf0p2`](https://tinytapeout.com/chips/ttgf0p2/), [`ttgf0p3`](https://tinytapeout.com/chips/ttgf0p3/), [`ttgf26a`](https://tinytapeout.com/chips/ttgf26a/), [`ttgf26b`](https://tinytapeout.com/chips/ttgf26b/), [`ttgf26c`](https://app.tinytapeout.com/shuttles/ttgf26c), [`ttgf26d`](https://app.tinytapeout.com/shuttles/ttgf26d) |
 
 Benchmarking needs three things the original repositories cannot promise, which is why the
 designs are copied here rather than just linked:
@@ -47,11 +47,11 @@ designs are copied here rather than just linked:
 The first three exist in every repository today; the `dev/*` branches are where the
 benchmark work lands as it is done.
 
-Repositories are named `<owner>--<repo>` after their upstream. They are found by topic too:
-[`ws-run1`](https://github.com/search?q=org%3Awafer-space-bench+topic%3Aws-run1&type=repositories),
-[`ws-run2`](https://github.com/search?q=org%3Awafer-space-bench+topic%3Aws-run2&type=repositories),
-[`google`](https://github.com/search?q=org%3Awafer-space-bench+topic%3Agoogle&type=repositories),
-[`tinytapeout`](https://github.com/search?q=org%3Awafer-space-bench+topic%3Atinytapeout&type=repositories).
+Repositories are named `<owner>--<repo>` after their upstream. Each carries
+topics for its source and runs, so GitHub can list
+[all the wafer.space designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Awafer-space&type=repositories),
+[all the Google designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Agoogle&type=repositories) or
+[all the Tiny Tapeout designs](https://github.com/search?q=org%3Awafer-space-bench+topic%3Atinytapeout&type=repositories).
 
 ### These are copies, not the projects
 
